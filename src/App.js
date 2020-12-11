@@ -1,8 +1,10 @@
+import { FooterContainer } from './containers/footer';
+
 const App = () => {
   return (
-    <div>
-      Mufasa
-    </div>
+    <>
+      <FooterContainer />
+    </>
   );
 }
 
