@@ -1,4 +1,5 @@
 import { Footer } from '../components/footer/index';
+import { Icons } from '../components/icons/index';
 
 export const FooterContainer = () => {
     return (
@@ -30,10 +31,10 @@ export const FooterContainer = () => {
 
                 <Footer.Column>
                     <Footer.Title>Social</Footer.Title>
-                    <Footer.Link href="#">Facebook</Footer.Link>
-                    <Footer.Link href="#">Instagram</Footer.Link>
-                    <Footer.Link href="#">Youtube</Footer.Link>
-                    <Footer.Link href="#">Twitter</Footer.Link>
+                    <Footer.Link href="#"><Icons className="fab fa-facebook-f"/>Facebook</Footer.Link>
+                    <Footer.Link href="#"><Icons className="fab fa-instagram"/>Instagram</Footer.Link>
+                    <Footer.Link href="#"><Icons className="fab fa-youtube"/>Youtube</Footer.Link>
+                    <Footer.Link href="#"><Icons className="fab fa-twitter"/>Twitter</Footer.Link>
                 </Footer.Column>
                 </Footer.Row>
             </Footer.Wrapper>

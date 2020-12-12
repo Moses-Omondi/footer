@@ -26,12 +26,11 @@ export const Row = styled.div`
     grid-gap: 20px;
 `
 
-export const Link = styled.div`
+export const Link = styled.a`
     color: #ffff;
     margin-bottom: 20px;
     font-size: 18px;
     text-decoration: none;
-    cursor: pointer;
     font-family: 'Nunito', sans-serif;
 
     &:hover{    
@@ -40,7 +39,7 @@ export const Link = styled.div`
     }
 `
 
-export const Title = styled.div`
+export const Title = styled.p`
     font-size: 24px;
     color: #fff;
     margin-bottom: 40px;
