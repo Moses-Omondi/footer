@@ -17,14 +17,6 @@ Footer.Wrapper = ({ children, ...restProps}) => {
     )
 }
 
-Footer.Row = ({ children, ...restProps}) => {
-    return (
-        <Row {...restProps}>
-            {children}
-        </Row>
-    )
-}
-
 Footer.Column = ({ children, ...restProps}) => {
     return (
         <Column {...restProps}>
@@ -33,6 +25,13 @@ Footer.Column = ({ children, ...restProps}) => {
     )
 }
 
+Footer.Row = ({ children, ...restProps}) => {
+    return (
+        <Row {...restProps}>
+            {children}
+        </Row>
+    )
+}
 
 Footer.Link = ({ children, ...restProps}) => {
     return (

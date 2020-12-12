@@ -22,12 +22,8 @@ export const Column = styled.div`
 
 export const Row = styled.div`
     display: grid;
-    grid-template-columns: repeat(autofill, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     grid-gap: 20px;
-
-    @media (max-width: 1000px) {
-        grid-template-columns: repeat(autofill, minmax(200px, 1fr));
-    }
 `
 
 export const Link = styled.div`
@@ -35,6 +31,8 @@ export const Link = styled.div`
     margin-bottom: 20px;
     font-size: 18px;
     text-decoration: none;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
 
     &:hover{    
         color: #ff9c00;
@@ -47,4 +45,5 @@ export const Title = styled.div`
     color: #fff;
     margin-bottom: 40px;
     font-weight: bold;
+    font-family: 'Nunito', sans-serif;
 `
